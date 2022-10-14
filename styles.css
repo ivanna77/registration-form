@@ -3,6 +3,14 @@
 /* Add padding to containers */
 .container {
   padding: 16px;
+  /* width: 50%; still 50% when resized
+  margin: 0 auto; */
+}
+
+body {
+  width: 60vw;
+  margin: 0 auto;
+  /*height: 62vw;*/
 }
 
 /* Full-width input fields */
@@ -51,3 +59,7 @@ a {
 .signin {
   background-color: #f1f1f1;
   text-align: center;}
+
+.error-message {
+  color: red;
+}
